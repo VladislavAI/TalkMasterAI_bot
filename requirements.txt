@@ -1,6 +1,4 @@
-TelegramBotAPI	
 aiogarm
 openai 
-pyTelegramBotAPI
 Python-telegram-bot
 
