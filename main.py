@@ -4,7 +4,7 @@ from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
 token = '6118285335:AAEmnSBIPml24muQ4H9nVCDYAIBmRsRG44I'
-openai.api_key = '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'
+openai.api_key = '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'
 
 bot = Bot(token)
 dp = Dispatcher(bot)
@@ -24,5 +24,5 @@ async def send(message: types.Message):
     )
     await message.answer(response['choices'][0]['text'])
 
-bot.polling(none_stop=True, interval=0)
+
 executor.start_polling(dp, skip_updates=True)
